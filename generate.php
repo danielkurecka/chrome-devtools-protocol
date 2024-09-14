@@ -446,6 +446,7 @@ class Generator
 		$fromJson->addComment("@param object \$rawData");
 
 		$jsonSerialize = $objectClass->addMethod("jsonSerialize");
+		$jsonSerialize->setReturnType("stdClass");
 		$jsonSerialize->addBody("return \$this->rawData;");
 
 		$objectClass->addMethod("getRawData")
@@ -521,6 +522,7 @@ class Generator
 		$fromJson->addComment("@return static");
 
 		$jsonSerialize = $objectClass->addMethod("jsonSerialize");
+		$jsonSerialize->setReturnType("stdClass");
 		$jsonSerialize->addBody("\$data = new \\stdClass();");
 
 		$builderClass = null;
