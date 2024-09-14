@@ -58,7 +58,7 @@ final class HighlightQuadRequest implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->quad !== null) {

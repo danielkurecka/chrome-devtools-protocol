@@ -66,7 +66,7 @@ final class CreateBrowserContextRequest implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->disposeOnDetach !== null) {

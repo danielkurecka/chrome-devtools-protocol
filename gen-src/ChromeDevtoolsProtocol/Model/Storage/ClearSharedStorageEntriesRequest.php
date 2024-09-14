@@ -29,7 +29,7 @@ final class ClearSharedStorageEntriesRequest implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->ownerOrigin !== null) {

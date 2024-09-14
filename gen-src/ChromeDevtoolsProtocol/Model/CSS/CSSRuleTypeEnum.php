@@ -11,10 +11,10 @@ namespace ChromeDevtoolsProtocol\Model\CSS;
  */
 final class CSSRuleTypeEnum
 {
-	public const MEDIA_RULE = 'MediaRule';
-	public const SUPPORTS_RULE = 'SupportsRule';
-	public const CONTAINER_RULE = 'ContainerRule';
-	public const LAYER_RULE = 'LayerRule';
-	public const SCOPE_RULE = 'ScopeRule';
-	public const STYLE_RULE = 'StyleRule';
+	const MEDIA_RULE = 'MediaRule';
+	const SUPPORTS_RULE = 'SupportsRule';
+	const CONTAINER_RULE = 'ContainerRule';
+	const LAYER_RULE = 'LayerRule';
+	const SCOPE_RULE = 'ScopeRule';
+	const STYLE_RULE = 'StyleRule';
 }

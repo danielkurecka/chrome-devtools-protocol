@@ -103,7 +103,7 @@ final class EmulateNetworkConditionsRequest implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->offline !== null) {

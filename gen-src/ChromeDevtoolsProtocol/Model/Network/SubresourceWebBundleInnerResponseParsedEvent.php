@@ -53,7 +53,7 @@ final class SubresourceWebBundleInnerResponseParsedEvent implements \JsonSeriali
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->innerRequestId !== null) {

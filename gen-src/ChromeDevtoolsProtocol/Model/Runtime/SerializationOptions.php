@@ -49,7 +49,7 @@ final class SerializationOptions implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->serialization !== null) {

@@ -53,7 +53,7 @@ final class SetDeviceOrientationOverrideRequest implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->alpha !== null) {

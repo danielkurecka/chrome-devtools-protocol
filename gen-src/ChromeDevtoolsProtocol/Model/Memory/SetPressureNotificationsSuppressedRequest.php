@@ -33,7 +33,7 @@ final class SetPressureNotificationsSuppressedRequest implements \JsonSerializab
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->suppressed !== null) {

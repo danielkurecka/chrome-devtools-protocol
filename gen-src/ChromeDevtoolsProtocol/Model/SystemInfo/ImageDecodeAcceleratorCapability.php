@@ -69,7 +69,7 @@ final class ImageDecodeAcceleratorCapability implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->imageType !== null) {

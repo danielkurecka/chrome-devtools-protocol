@@ -43,7 +43,7 @@ final class ContainerQueryHighlightConfig implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->containerQueryContainerHighlightConfig !== null) {

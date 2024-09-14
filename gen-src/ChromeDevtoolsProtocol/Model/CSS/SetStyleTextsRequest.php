@@ -42,7 +42,7 @@ final class SetStyleTextsRequest implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->edits !== null) {

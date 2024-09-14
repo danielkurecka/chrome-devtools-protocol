@@ -35,7 +35,7 @@ final class UserAgentBrandVersion implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->brand !== null) {

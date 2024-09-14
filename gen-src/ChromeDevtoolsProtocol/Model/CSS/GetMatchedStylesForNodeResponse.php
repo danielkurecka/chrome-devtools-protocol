@@ -177,7 +177,7 @@ final class GetMatchedStylesForNodeResponse implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->inlineStyle !== null) {

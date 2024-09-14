@@ -33,7 +33,7 @@ final class CreateIsolatedWorldResponse implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->executionContextId !== null) {

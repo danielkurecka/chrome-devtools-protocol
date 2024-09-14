@@ -33,7 +33,7 @@ final class SetSkipAllPausesRequest implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->skip !== null) {

@@ -65,7 +65,7 @@ final class SetVariableValueRequest implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->scopeNumber !== null) {

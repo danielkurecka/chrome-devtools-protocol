@@ -46,7 +46,7 @@ final class SetDiscoverTargetsRequest implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->discover !== null) {

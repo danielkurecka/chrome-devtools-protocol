@@ -63,7 +63,7 @@ final class SharedStorageMetadata implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->creationTime !== null) {

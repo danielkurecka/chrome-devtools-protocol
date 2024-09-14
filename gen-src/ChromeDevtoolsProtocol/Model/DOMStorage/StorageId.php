@@ -53,7 +53,7 @@ final class StorageId implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->securityOrigin !== null) {

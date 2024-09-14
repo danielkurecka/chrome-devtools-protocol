@@ -75,7 +75,7 @@ final class PlayerError implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->errorType !== null) {

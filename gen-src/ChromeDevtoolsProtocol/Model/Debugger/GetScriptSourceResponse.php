@@ -43,7 +43,7 @@ final class GetScriptSourceResponse implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->scriptSource !== null) {

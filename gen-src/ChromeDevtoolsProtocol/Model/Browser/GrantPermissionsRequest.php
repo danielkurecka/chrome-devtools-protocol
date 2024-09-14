@@ -55,7 +55,7 @@ final class GrantPermissionsRequest implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->permissions !== null) {

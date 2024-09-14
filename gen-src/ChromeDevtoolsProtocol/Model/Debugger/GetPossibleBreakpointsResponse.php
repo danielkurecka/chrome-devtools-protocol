@@ -36,7 +36,7 @@ final class GetPossibleBreakpointsResponse implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->locations !== null) {

@@ -42,7 +42,7 @@ final class TakeCoverageDeltaResponse implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->coverage !== null) {

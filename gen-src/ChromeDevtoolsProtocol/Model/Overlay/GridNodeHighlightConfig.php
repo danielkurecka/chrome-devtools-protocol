@@ -43,7 +43,7 @@ final class GridNodeHighlightConfig implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->gridHighlightConfig !== null) {

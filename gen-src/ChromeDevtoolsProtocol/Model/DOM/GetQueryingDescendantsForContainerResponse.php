@@ -39,7 +39,7 @@ final class GetQueryingDescendantsForContainerResponse implements \JsonSerializa
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->nodeIds !== null) {

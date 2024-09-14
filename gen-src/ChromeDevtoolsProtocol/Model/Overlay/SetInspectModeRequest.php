@@ -43,7 +43,7 @@ final class SetInspectModeRequest implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->mode !== null) {

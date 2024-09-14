@@ -29,7 +29,7 @@ final class FederatedAuthUserInfoRequestIssueDetails implements \JsonSerializabl
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->federatedAuthUserInfoRequestIssueReason !== null) {

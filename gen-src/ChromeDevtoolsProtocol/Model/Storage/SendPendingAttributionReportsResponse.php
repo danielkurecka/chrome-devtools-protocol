@@ -33,7 +33,7 @@ final class SendPendingAttributionReportsResponse implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->numSent !== null) {

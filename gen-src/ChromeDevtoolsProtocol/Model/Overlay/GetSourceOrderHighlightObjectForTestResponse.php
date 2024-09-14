@@ -33,7 +33,7 @@ final class GetSourceOrderHighlightObjectForTestResponse implements \JsonSeriali
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->highlight !== null) {

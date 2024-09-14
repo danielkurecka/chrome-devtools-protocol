@@ -123,7 +123,7 @@ final class ExceptionDetails implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->exceptionId !== null) {

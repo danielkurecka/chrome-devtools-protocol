@@ -36,7 +36,7 @@ final class SnapshotCommandLogResponse implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->commandLog !== null) {

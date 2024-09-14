@@ -33,7 +33,7 @@ final class GetInterestGroupDetailsResponse implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->details !== null) {

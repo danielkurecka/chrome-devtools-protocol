@@ -33,7 +33,7 @@ final class ResolveBlobRequest implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->objectId !== null) {

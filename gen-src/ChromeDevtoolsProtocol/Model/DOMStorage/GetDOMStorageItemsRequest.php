@@ -29,7 +29,7 @@ final class GetDOMStorageItemsRequest implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->storageId !== null) {

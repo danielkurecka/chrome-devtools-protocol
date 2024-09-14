@@ -77,7 +77,7 @@ final class BaseAudioContext implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->contextId !== null) {

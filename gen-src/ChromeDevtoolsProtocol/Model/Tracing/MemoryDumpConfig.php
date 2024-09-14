@@ -30,7 +30,7 @@ final class MemoryDumpConfig implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		return $this->rawData;
 	}

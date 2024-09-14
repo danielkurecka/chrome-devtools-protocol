@@ -11,25 +11,25 @@ namespace ChromeDevtoolsProtocol\Model\Storage;
  */
 final class SharedStorageAccessTypeEnum
 {
-	public const DOCUMENT_ADD_MODULE = 'documentAddModule';
-	public const DOCUMENT_SELECT_U_R_L = 'documentSelectURL';
-	public const DOCUMENT_RUN = 'documentRun';
-	public const DOCUMENT_SET = 'documentSet';
-	public const DOCUMENT_APPEND = 'documentAppend';
-	public const DOCUMENT_DELETE = 'documentDelete';
-	public const DOCUMENT_CLEAR = 'documentClear';
-	public const DOCUMENT_GET = 'documentGet';
-	public const WORKLET_SET = 'workletSet';
-	public const WORKLET_APPEND = 'workletAppend';
-	public const WORKLET_DELETE = 'workletDelete';
-	public const WORKLET_CLEAR = 'workletClear';
-	public const WORKLET_GET = 'workletGet';
-	public const WORKLET_KEYS = 'workletKeys';
-	public const WORKLET_ENTRIES = 'workletEntries';
-	public const WORKLET_LENGTH = 'workletLength';
-	public const WORKLET_REMAINING_BUDGET = 'workletRemainingBudget';
-	public const HEADER_SET = 'headerSet';
-	public const HEADER_APPEND = 'headerAppend';
-	public const HEADER_DELETE = 'headerDelete';
-	public const HEADER_CLEAR = 'headerClear';
+	const DOCUMENT_ADD_MODULE = 'documentAddModule';
+	const DOCUMENT_SELECT_U_R_L = 'documentSelectURL';
+	const DOCUMENT_RUN = 'documentRun';
+	const DOCUMENT_SET = 'documentSet';
+	const DOCUMENT_APPEND = 'documentAppend';
+	const DOCUMENT_DELETE = 'documentDelete';
+	const DOCUMENT_CLEAR = 'documentClear';
+	const DOCUMENT_GET = 'documentGet';
+	const WORKLET_SET = 'workletSet';
+	const WORKLET_APPEND = 'workletAppend';
+	const WORKLET_DELETE = 'workletDelete';
+	const WORKLET_CLEAR = 'workletClear';
+	const WORKLET_GET = 'workletGet';
+	const WORKLET_KEYS = 'workletKeys';
+	const WORKLET_ENTRIES = 'workletEntries';
+	const WORKLET_LENGTH = 'workletLength';
+	const WORKLET_REMAINING_BUDGET = 'workletRemainingBudget';
+	const HEADER_SET = 'headerSet';
+	const HEADER_APPEND = 'headerAppend';
+	const HEADER_DELETE = 'headerDelete';
+	const HEADER_CLEAR = 'headerClear';
 }

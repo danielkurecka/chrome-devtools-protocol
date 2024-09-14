@@ -29,7 +29,7 @@ final class GetAppManifestRequest implements \JsonSerializable
 	}
 
 
-	public function jsonSerialize()
+	public function jsonSerialize(): \stdClass
 	{
 		$data = new \stdClass();
 		if ($this->manifestId !== null) {
